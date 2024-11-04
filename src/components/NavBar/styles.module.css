@@ -8,18 +8,16 @@
     z-index: 1;
     width: 100%;
     justify-content: space-around;
-    //padding: 0px 0px 0px 100px;
-
-    cursor: pointer; /* При наведении курсор будет в виде руки */
+    cursor: pointer;
     border-bottom: 1px solid black;
 }
 
 .navBar:hover {
-    cursor: pointer; /* Изменение курсора при наведении */
+    cursor: pointer;
 }
 
 .navBar {
-    cursor: default; /* Вернет курсор к обычной стрелке */
+    cursor: default;
 }
 
 text {

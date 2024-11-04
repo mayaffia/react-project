@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { ProductCardProps } from '../types';
+import { ModalProps } from '../types';
 
-export default function Modal({ product, onClose }: ProductCardProps) {
+export default function Modal({ product, onClose }: ModalProps) {
     return (
       <div className={styles.modal}>
         <div className={styles.modalContent}>

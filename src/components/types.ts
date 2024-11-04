@@ -11,6 +11,12 @@ export interface Product {
 
 export interface ProductCardProps {
     product: Product;
-    onClick?: (product: Product) => void;
-    onClose?: () => void;
-  }
+    onClick: (product: Product) => void;
+}
+
+export interface ModalProps {
+    product: Product;
+    onClose: () => void;
+}
+
+

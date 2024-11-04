@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
 import { ProductCardProps } from '../types';
-
 
 
 export default function ProductCard ({ product, onClick }: ProductCardProps) {
