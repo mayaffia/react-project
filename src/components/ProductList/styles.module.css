@@ -1,0 +1,11 @@
+.productList {
+    display: flex;
+  
+    margin-left: 330px;
+    margin-top: 20px;
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+ 
