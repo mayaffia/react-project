@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     height: 50px;
-    background-color: #f9f4f0;
+    background-color: #2d2d2d;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -21,7 +21,7 @@
 }
 
 text {
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
