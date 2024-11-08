@@ -15,7 +15,7 @@ export default function NavBar() {
   return (
     <div className={styles.navBar}>
         <button onClick={onClick}>
-        <img src='../../public/side.png' />
+        <img src='side.png' />
         </button>
         {isComponentVisible && 
             <Sidebar />
@@ -24,7 +24,7 @@ export default function NavBar() {
         <text>Товары</text>
         <text>Склады</text>
         <text>О системе</text>
-        <img src='../../public/acc3.png' />
+        <img src='acc3.png' />
     </div>
   )
 }

@@ -1,5 +1,3 @@
-
-import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import ProductList from './components/ProductList/ProductList'
 
