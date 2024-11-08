@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { ProductCardProps } from '../types';
+import { ProductCardProps } from '../../types/types';
 
 
 export default function ProductCard ({ product, onClick }: ProductCardProps) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { ModalProps } from '../types';
+import { ModalProps } from '../../types/types';
 
 export default function Modal({ product, onClose }: ModalProps) {
     return (

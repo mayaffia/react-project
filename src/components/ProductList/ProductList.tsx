@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './styles.module.css';
 import ProductCard from '../ProductCard/ProductCard';
 import Modal from '../Modal/Modal';
-import { Product } from '../types';
+import { Product } from '../../types/types';
 
 export default function ProductList() {
 
